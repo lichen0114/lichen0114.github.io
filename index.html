@@ -33,8 +33,15 @@
     </header>
 
     <nav>
-        <div class="container">
-            <ul>
+        <div class="container nav-container">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="logo">Wang Lichen</div>
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="blog.html">Blog</a></li>
@@ -69,7 +76,7 @@
             <p>Search this site:</p>
             <form method="get" action="https://www.google.com/search">
                 <input type="text" name="q" placeholder="Search via Google...">
-                <input type="hidden" name="sitesearch" value="lichen0114.github.io">
+                <input type="hidden" name="sitesearch" value="https://lichen0114.github.io">
                 <button type="submit">Search</button>
             </form>
         </div>
