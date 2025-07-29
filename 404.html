@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Archive - Wang Lichen </title>
+    <title>Page Not Found - Wang Lichen</title>
+    <meta name="description" content="The page you're looking for could not be found.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-R8B8M9WRDJ"></script>
     <script>
@@ -29,7 +38,6 @@
                     <i class="fas fa-sun"></i>
                 </button>
             </div>
-            <!-- Search functionality removed - not supported by GitHub Pages static hosting -->
         </div>
     </header>
 
@@ -41,7 +49,7 @@
                 <span></span>
                 <span></span>
             </label>
-            <div class="logo">Lichen Wang </div>
+            <div class="logo">Lichen Wang</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -52,41 +60,37 @@
     </nav>
 
     <main class="container">
-        <h2>Blog Archive</h2>
-        
-        <div class="archive-section">
-            <h3 class="year">2025</h3>
-            
-            <div class="archive-post">
-                <span class="archive-date">Mar 23</span>
-                <a href="posts/Books_Worth_Reading.html">Books Worth Reading</a>
-                <div class="post-categories">
-                    <span class="category">books</span>
-                </div>
+        <div class="error-page" style="text-align: center; padding: 4rem 0;">
+            <div style="font-size: 6rem; color: var(--primary-color); margin-bottom: 1rem;">
+                <i class="fas fa-robot"></i>
+            </div>
+            <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">404 - Page Not Found</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; color: var(--light-text);">
+                Oops! The page you're looking for seems to have wandered off into cyberspace.
+            </p>
+            <p style="margin-bottom: 2rem;">
+                Don't worry though – even the best robots get lost sometimes. Let's get you back on track!
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="index.html" class="home-button">
+                    <i class="fas fa-home"></i> Go Home
+                </a>
+                <a href="blog.html" class="home-button" style="background-color: var(--light-text);">
+                    <i class="fas fa-blog"></i> View Blog
+                </a>
+                <a href="projects.html" class="home-button" style="background-color: var(--light-text);">
+                    <i class="fas fa-code"></i> See Projects
+                </a>
             </div>
         </div>
-
-        <div class="archive-section">
-            <h3 class="year">2024</h3>
-            
-            <div class="archive-post">
-                <span class="archive-date">Dec 15</span>
-                <a href="posts/my-journey-into-ai-and-robotics.html">My Journey into AI and Robotics</a>
-                <div class="post-categories">
-                    <span class="category">AI</span>
-                    <span class="category">robotics</span>
-                    <span class="category">personal</span>
-                </div>
-            </div>
-            
-            <!-- More posts would be added here as you create them -->
-        </div>
         
-        <div class="pagination">
-            <span class="page-number current">1</span>
-            <a href="blog-page2.html" class="page-number">2</a>
-            <a href="blog-page3.html" class="page-number">3</a>
-            <a href="blog-page2.html" class="next"><i class="fas fa-chevron-right"></i></a>
+        <div class="external-search">
+            <p>Or search for what you're looking for:</p>
+            <form method="get" action="https://www.google.com/search">
+                <input type="text" name="q" placeholder="Search via Google...">
+                <input type="hidden" name="sitesearch" value="lichen0114.github.io">
+                <button type="submit">Search</button>
+            </form>
         </div>
     </main>
 
@@ -95,12 +99,12 @@
             <div class="social-links">
                 <a href="https://github.com/lichen0114" aria-label="GitHub"><i class="fab fa-github"></i></a>
                 <a href="https://twitter.com/@lW14JQKd1yOC5EG" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/%E7%AB%8B%E8%BE%B0-%E7%8E%8B-356408243/"  aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/%E7%AB%8B%E8%BE%B0-%E7%8E%8B-356408243/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
             </div>
             <p>&copy; 2025 Lichen Wang. All rights reserved.</p>
         </div>
     </footer>
+
     <script src="js/main.js"></script>
-    <!-- Removed search.js reference - search functionality not compatible with GitHub Pages -->
 </body>
 </html>
