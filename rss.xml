@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Lichen Wang - Personal Blog</title>
+        <description>Thoughts, ideas, and projects from Lichen Wang</description>
+        <link>https://lichen0114.github.io/</link>
+        <language>en-US</language>
+        <lastBuildDate>Mon, 01 Jan 2025 00:00:00 GMT</lastBuildDate>
+        
+        <item>
+            <title>Books Worth Reading</title>
+            <description>A list of books that inspired, moved, and stayed with me long after reading.</description>
+            <link>https://lichen0114.github.io/posts/Books_Worth_Reading.html</link>
+            <pubDate>Sun, 23 Mar 2025 00:00:00 GMT</pubDate>
+            <guid>https://lichen0114.github.io/posts/Books_Worth_Reading.html</guid>
+        </item>
+        
+        <item>
+            <title>My Journey into AI and Robotics</title>
+            <description>As a student at National Taiwan University, I've been fascinated by the convergence of artificial intelligence and robotics.</description>
+            <link>https://lichen0114.github.io/posts/my-journey-into-ai-and-robotics.html</link>
+            <pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate>
+            <guid>https://lichen0114.github.io/posts/my-journey-into-ai-and-robotics.html</guid>
+        </item>
+        
+        <item>
+            <title>The Future of Space Exploration</title>
+            <description>As we stand on the brink of a new era in space exploration, I find myself constantly amazed by the rapid advances we're witnessing.</description>
+            <link>https://lichen0114.github.io/posts/future-of-space-exploration.html</link>
+            <pubDate>Sat, 30 Nov 2024 00:00:00 GMT</pubDate>
+            <guid>https://lichen0114.github.io/posts/future-of-space-exploration.html</guid>
+        </item>
+    </channel>
+</rss>

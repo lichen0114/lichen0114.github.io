@@ -36,4 +36,10 @@
         <changefreq>yearly</changefreq>
         <priority>0.7</priority>
     </url>
+    <url>
+        <loc>https://lichen0114.github.io/posts/future-of-space-exploration.html</loc>
+        <lastmod>2024-11-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
