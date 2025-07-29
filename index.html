@@ -6,6 +6,15 @@
     <title>Wang Lichen - Personal Blog</title>
     <meta name="description" content="Personal blog of Wang Lichen, sharing thoughts on technology, space, and entrepreneurship.">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="Lichen Wang - Personal Blog" href="/rss.xml">
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-R8B8M9WRDJ"></script>
     <script>
@@ -36,8 +45,16 @@
 <body>
     <header>
         <div class="container">
-            <h1><a href="index.html" class="header-link">Lichen Wang </a></h1>
-            <p><a href="index.html" class="header-link">Thoughts, ideas, and projects</a></p>
+            <div class="header-top">
+                <div class="header-content">
+                    <h1><a href="index.html" class="header-link">Lichen Wang </a></h1>
+                    <p><a href="index.html" class="header-link">Thoughts, ideas, and projects</a></p>
+                </div>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
             <!-- Search functionality removed - not supported by GitHub Pages static hosting -->
         </div>
     </header>
@@ -64,6 +81,29 @@
         <section class="featured-posts">
             <h2>Recent Posts</h2>
             
+            <article class="post">
+                <h3><a href="posts/future-of-space-exploration.html">The Future of Space Exploration</a></h3>
+                <div class="post-meta">November 30, 2024</div>
+                <div class="post-categories">
+                    <span class="category">space</span>
+                    <span class="category">technology</span>
+                    <span class="category">future</span>
+                </div>
+                <p>As we stand on the brink of a new era in space exploration, I find myself constantly amazed by the rapid advances we're witnessing. From private companies launching missions to Mars to the development of space tourism...</p>
+                <a href="posts/future-of-space-exploration.html" class="read-more">Read More</a>
+            </article>
+
+            <article class="post">
+                <h3><a href="posts/my-journey-into-ai-and-robotics.html">My Journey into AI and Robotics</a></h3>
+                <div class="post-meta">December 15, 2024</div>
+                <div class="post-categories">
+                    <span class="category">AI</span>
+                    <span class="category">robotics</span>
+                    <span class="category">personal</span>
+                </div>
+                <p>As a student at National Taiwan University, I've been fascinated by the convergence of artificial intelligence and robotics. This field represents the perfect intersection of theoretical computer science and practical engineering...</p>
+                <a href="posts/my-journey-into-ai-and-robotics.html" class="read-more">Read More</a>
+            </article>
 
             <article class="post">
                 <h3><a href="posts/Books_Worth_Reading.html">Books Worth Reading</a></h3>
@@ -74,10 +114,6 @@
                 <p>A list of books that inspired, moved, and stayed with me long after reading . Click to read more...</p>
                 <a href="posts/Books_Worth_Reading.html" class="read-more">Read More</a>
             </article>
-            
-            
-            
-            
 
             <!-- More post entries would go here -->
         </section>
@@ -103,5 +139,6 @@
             <p>&copy; 2025 Lichen Wang. All rights reserved.</p>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
