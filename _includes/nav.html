@@ -1,0 +1,23 @@
+{%- comment -%} Single source of truth for site navigation {%- endcomment -%}
+<header class="site-header">
+  <div class="container header-bar">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="site-nav" aria-label="Primary">
+      {%- assign nav_path = page.url | downcase -%}
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if nav_path contains '/blog' %} class="active"{% endif %}>Blog</a>
+      <a href="{{ '/tags/' | relative_url }}"{% if nav_path contains '/tags' %} class="active"{% endif %}>Tags</a>
+      <a href="{{ '/about/' | relative_url }}"{% if nav_path contains '/about' %} class="active"{% endif %}>About</a>
+      <a href="{{ '/search/' | relative_url }}"{% if nav_path contains '/search' %} class="active"{% endif %}>Search</a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="theme-icon-light">☀</span><span class="theme-icon-dark">☾</span>
+      </button>
+    </nav>
+  </div>
+</header>

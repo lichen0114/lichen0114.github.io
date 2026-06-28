@@ -1,0 +1,20 @@
+---
+layout: default
+title: Search
+permalink: /search/
+---
+
+<div class="container">
+  <h1 class="page-title">Search</h1>
+  <input
+    type="search"
+    id="search-input"
+    class="search-box"
+    placeholder="Search posts by title, tag, or content…"
+    autocomplete="off"
+    autofocus>
+  <p class="search-status" id="search-status">Type to search across all posts.</p>
+  <ul class="post-list" id="search-results"></ul>
+</div>
+
+<script src="{{ '/assets/js/search.js' | relative_url }}" data-search-json="{{ '/search.json' | relative_url }}"></script>

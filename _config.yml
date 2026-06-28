@@ -1,0 +1,57 @@
+# --- Site identity ---
+title: Lichen Wang
+tagline: Thoughts, ideas, and projects
+description: >-
+  Personal blog of Lichen Wang — writing on AI, robotics, space exploration,
+  and entrepreneurship.
+url: https://lichen0114.github.io
+baseurl: ""
+lang: en
+
+author:
+  name: Lichen Wang
+  email: lichenwang0114@gmail.com
+
+# --- Social / contact (used in footer + SEO) ---
+social:
+  github: lichen0114
+  twitter: lW14JQKd1yOC5EG
+  linkedin: https://www.linkedin.com/in/%E7%AB%8B%E8%BE%B0-%E7%8E%8B-356408243/
+  email: lichenwang0114@gmail.com
+
+# --- Analytics ---
+google_analytics: G-R8B8M9WRDJ
+
+# --- Build settings ---
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Taipei
+
+sass:
+  style: compressed
+
+# GitHub Pages allowlisted plugins only (built-in --safe mode)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# --- Front-matter defaults ---
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# --- Exclusions ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .jekyll-cache
